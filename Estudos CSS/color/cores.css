@@ -12,9 +12,9 @@
 	align-items: center;
 	background-color: rgb(50, 20, 30, 20%);
 	color: hsl(black, 30%, 20%);
-	/* box-sizing: ;
+	box-sizing: content-box;
 	border-style: inherit;
-	border-style: groove ;  */
+	border-style: groove;
 	font-stretch: 60%;
 	font-family: "Times New Roman", Times, serif;
 	font-weight: normal;
@@ -42,8 +42,8 @@ body {
 	width: 100vh;
 	height: 100vh;
 	background-image: url("./fundo2.jpeg");
-	background-size: ;
-	background-position: ;
+	background-size: contain;
+	background-position: 0%;
 	background-repeat: repeat-x;
 
 	margin: 0;
