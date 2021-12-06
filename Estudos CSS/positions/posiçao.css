@@ -1,0 +1,73 @@
+.verde {
+	background-color: green;
+
+	width: 100px;
+	height: 100px;
+
+	min-width: 100px;
+	min-height: 100px;
+
+	left: 0px;
+	top: 0px;
+	opacity: 50%;
+}
+.vermelho {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	min-width: 100px;
+	min-height: 100px;
+	display: flex;
+	/* opacity: 50% */
+	position: static;
+	right: 0px;
+	top: 0px;
+}
+.azul {
+	/*a*/
+	background-color: rgb(13, 41, 131);
+	width: 30px;
+	height: 30px;
+	min-width: 30px;
+	min-height: 30px;
+	position: relative;
+	right: 0px;
+	top: 0px;
+}
+
+.amarelo {
+	/*b*/
+	background-color: rgb(156, 154, 4);
+	width: 30px;
+	height: 30px;
+	min-width: 30px;
+	min-height: 30px;
+	left: 0px;
+	top: 80px;
+	opacity: 50%;
+}
+.rosa {
+	background-color: rgb(195, 62, 212);
+	width: 100px;
+	height: 100px;
+	min-width: 100px;
+	min-height: 100px;
+	opacity: 50%;
+}
+body {
+	display: flex;
+	box-sizing: border-box;
+	border: none;
+
+	flex-flow: row wrap;
+	height: 200vh;
+	align-items: center;
+}
+main {
+	display: flex;
+	background-color: brown;
+	max-height: 200px;
+	/* position: relative */
+	width: 500px;
+	height: 500px;
+}

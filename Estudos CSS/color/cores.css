@@ -1,0 +1,54 @@
+* {
+	flex-direction: column;
+}
+
+#barrafixa {
+	position: fixed;
+	padding: 20px;
+	background: linear-gradient(rgb(248, 242, 242), rgb(5, 0, 2));
+	width: 100vw;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(50, 20, 30, 20%);
+	color: hsl(black, 30%, 20%);
+	/* box-sizing: ;
+	border-style: inherit;
+	border-style: groove ;  */
+	font-stretch: 60%;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	text-align: justify;
+	font-style: normal;
+	text-decoration: overline wavy rgb(121, 120, 120);
+	text-shadow: 1px 1px 3px gray;
+	/* font: italic 2em/1 helvetica, arial, sans-serif; */
+	display: flex;
+}
+#textocorpo {
+	position: absolute;
+	bottom: 30%;
+	top: 17%;
+	font-size: 10px;
+	color: rgb(226, 214, 214);
+}
+/* #hexadecimal {
+	width: 500px;
+	height: 100px;
+
+	color: #09f;
+} */
+body {
+	width: 100vh;
+	height: 100vh;
+	background-image: url("./fundo2.jpeg");
+	background-size: ;
+	background-position: ;
+	background-repeat: repeat-x;
+
+	margin: 0;
+
+	/* justify-content: space-around;
+	align-items: center; */
+	display: flex;
+}
